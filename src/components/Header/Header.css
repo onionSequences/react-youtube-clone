@@ -1,0 +1,17 @@
+header {
+  background-color: #fff;
+  padding: 0 1em;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.logo {
+  margin-left: 20px;
+}
+
+@media screen and (max-width: 450px) {
+  header {
+    flex-direction: column;
+  }
+}
