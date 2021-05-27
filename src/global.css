@@ -7,3 +7,33 @@ body {
   font-family: "Roboto", "Noto", sans-serif;
   background-color: #f9f9f9;
 }
+
+main {
+  display: flex;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  width: 100%;
+}
+
+.moveRight {
+  margin-left: 220px;
+}
+
+.ml-10 {
+  margin-left: 10px;
+}
+
+@media screen and (max-width: 700px) {
+  main {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .moveRight {
+    margin-left: 0px;
+  }
+}

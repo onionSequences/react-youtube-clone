@@ -1,0 +1,24 @@
+.sidebar {
+  max-width: 250px;
+  background-color: #fff;
+  height: calc(100vh - 66px);
+  min-width: 200px;
+  float: left;
+
+  hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgrey;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+@media screen and (max-width: 765px) {
+  .sidebar {
+    max-width: initial;
+    height: initial;
+    flex: 1;
+    float: none;
+  }
+}
